@@ -3,20 +3,20 @@
     <script src="button.js"></script>
 </head>
 <body>
-    <header>
+    <div>
         <title>
             Hello, World!
         </title>
-    </header>
-    <nav>
+    </div>
+    <div>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/divs.html">Home but with divs</a></li>
             <li><a href="/about.html">About</a></li>
         </ul>
-    </nav>
-    <main>
-        <article>
+    </div>
+    <div>
+        <div>
             <h1>
                 My first blog post!
             </h1>
@@ -32,8 +32,8 @@
             <p>
                 <a href="https://www.example.com/">This is a hyperlink</a> 
             </p>
-        </article>
-        <article>
+        </div>
+        <div class="article">
             <h1>My to do list</h1>
             <ul>
                 <li>Eat breakfast</li>
@@ -42,8 +42,8 @@
                 <li>Make lunch</li>
                 <li>Eat lunch</li>
             </ul>
-        </article>
-        <article>
+        </div>
+        <div>
             <h1>iframe</h1>
             <iframe id="inlineFrameExample"
                 title="Inline Frame Example"
@@ -51,7 +51,7 @@
                 height="200"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
             />
-        </article>
+        </div>
         <button id="button" onclick="onButtonClick('Hello')">Button!</button>
 
         <form action="" method="get">
@@ -59,8 +59,8 @@
             <input name="property_name" type="text">
             <input type="submit" value="Submit!" />
         </form>
-    </main>
-    <footer>
+    </div>
+    <div>
         An example website using some semantic HTML
-    </footer>
+    </div>
 </body>
